@@ -1,0 +1,62 @@
+*{
+    outline: 1px solid red;
+}
+#square{
+    width: 140px;
+    height: 140px;
+    background:blue;
+
+    margin: 25px;
+}
+#circle{
+    width: 140px;
+    height: 140px;
+    background:blue;
+    border-radius: 100px;
+    margin: 25px;
+}
+#triangle{
+    width: 0px;
+    height: 0px;
+    margin: 25px;
+   border-right: 70px solid transparent;
+   border-left: 70px solid transparent;
+    border-bottom: 140px solid blue;
+}
+#movingpacman{
+    background-color: black;
+    height: 200px;
+    width: 2000px;
+}
+.pacman{
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid yellow;
+    border-left: 60px solid yellow;
+    border-bottom: 60px solid yellow;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: inline-flex;
+    position: absolute;
+}
+
+.pellet{
+    padding:0px 0 0 0 ;
+    width: 40px;
+    height: 40px;
+    background:white;
+    border-radius: 100px;
+    margin: 0px 0 40px 80px ;
+    display: inline-block;
+}
+.closedpacman{
+    margin: 0px 0 0 10px;
+    width: 120px;
+    height: 120px;
+    background:yellow;
+    border-radius: 100px;
+    display: inline-flex;
+}
